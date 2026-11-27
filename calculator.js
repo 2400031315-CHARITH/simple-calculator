@@ -1,5 +1,15 @@
-function calculate(a, b) {
+function add(a, b) {
+    return a + b;
+}
+
+function subtract(a, b) {
+    return a - b;
+}
+
+function multiply(a, b) {
     return a * b;
 }
 
-console.log("Multiplication:", calculate(10, 5));
+console.log("Addition:", add(10, 5));
+console.log("Subtraction:", subtract(10, 5));
+console.log("Multiplication:", multiply(10, 5));
